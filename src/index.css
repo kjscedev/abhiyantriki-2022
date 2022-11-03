@@ -67,9 +67,9 @@ code {
 }
 
 .heading-text-secondary {
-	font-family: "Roboto";
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 3rem;
 }
 
@@ -101,8 +101,7 @@ code {
 	height: 41.59px;
 	left: 299.33px;
 	top: 636.82px; */
-
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 40px;
