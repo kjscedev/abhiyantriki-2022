@@ -1,0 +1,15 @@
+box-sizing: border-box;
+
+position: absolute;
+width: 1324px;
+height: 820px;
+left: 58px;
+top: 155px;
+
+background: linear-gradient(112.53deg, rgba(255, 255, 255, 0.38) 4.91%, rgba(255, 255, 255, 0) 135.61%);
+border: 1px solid #000000;
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(12.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 40px;

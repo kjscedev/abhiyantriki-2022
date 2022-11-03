@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { RouterProvider } from "react-router-dom";
+import routes from './routes/routes';
+import Navbar from './components/Navbar';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	const styleObject = {
+
+		position: "absolute",
+		top: "50%",
+		left: "50%",
+		transform: "translate(-50%, -50%)",
+		minWidth: "100%",
+		minHeight: "100%",
+		// zIndex: -5,
+		overflowY: "hidden",
+		pointerEvent: "all"
+	}
+
+	return (
+		<div className="App" style={styleObject}>
+			<Navbar />
+			<RouterProvider router={routes} />
+		</div>
+	);
 }
 
 export default App;
