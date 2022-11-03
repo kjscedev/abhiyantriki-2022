@@ -10,7 +10,9 @@ function Home() {
 				<div className="heading-text-secondary">Abhiyantriki 2022</div>
 				<Countdown />
 			</div>
-			<div className="container__gamePreview"></div>
+			<div className="container__gamePreview">
+        <div className="gamePreview_button">Let's Play</div>
+      </div>
 		</div>
 	);
 }
