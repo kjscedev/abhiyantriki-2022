@@ -13,7 +13,6 @@ function App() {
 		transform: "translate(-50%, -50%)",
 		minWidth: "100%",
 		minHeight: "100%",
-		// zIndex: -5,
 		overflowY: "hidden",
 		pointerEvent: "all"
 	}

@@ -15,9 +15,9 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
-/* *{
-  font-size:16px
-} */
+* {
+	box-sizing: border-box;
+}
 
 .particles-js-canvas-el {
 	z-index: 0;
@@ -74,12 +74,51 @@ code {
 }
 
 .countdown {
-	padding: 8vh 2vw;
+	padding: 5vh 2vw;
 	display: flex;
+	justify-content: space-around;
 }
 
 .countdown__text {
 	background: rgba(8, 15, 26, 0.75);
 	border-radius: 22px;
-  width:1fr
+	text-align: center;
+	width: 13vh;
+	height: 13vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.countdown_value {
+	/* font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 3rem; */
+	/* position: absolute;
+	width: 90.73px;
+	height: 41.59px;
+	left: 299.33px;
+	top: 636.82px; */
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.countdown_value_text {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+
+color: #A5DEFF;
 }
