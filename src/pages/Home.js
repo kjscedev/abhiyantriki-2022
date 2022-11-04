@@ -1,4 +1,5 @@
 import Countdown from "../components/Countdown";
+import { Link } from "react-router-dom";
 
 function Home() {
 	return (

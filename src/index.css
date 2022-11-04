@@ -95,6 +95,7 @@ code {
 
 .countdown {
 	padding: 5vh 2vw;
+	transform: translateX(-9%);
 	display: flex;
 	justify-content: space-around;
 }
