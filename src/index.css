@@ -5,7 +5,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	/* overflow: hidden; */
+	overflow-x: hidden;
 	color: whitesmoke;
 	user-select: none;
 	background-color: #001143;
@@ -25,6 +25,7 @@ code {
 .container {
 	width: 80vw;
 	/* height: 70vh; */
+	margin: auto;
 	padding: 2rem 5rem;
 	background: linear-gradient(
 		112.53deg,
@@ -34,11 +35,8 @@ code {
 	border: 1px solid #000000;
 	box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
 	backdrop-filter: blur(12.5px);
-	border-radius: 60px;
-	bottom: 10vh;
-	left: 10vw;
+	border-radius: 6rem;
 	display: flex;
-	transform: translateX(10vw);
 	flex-direction: row;
 	min-height: 80vh;
 }
@@ -101,6 +99,7 @@ code {
 	transform: translateX(-9%);
 	display: flex;
 	justify-content: space-around;
+
 }
 
 .countdown__text {
@@ -108,7 +107,8 @@ code {
 	border-radius: 22px;
 	text-align: center;
 	width: 13vh;
-	height: 13vh;
+	/* height: 13vh; */
+	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -122,7 +122,6 @@ code {
 	font-size: 40px;
 	line-height: 47px;
 	text-align: center;
-
 	color: #ffffff;
 }
 
@@ -133,13 +132,76 @@ code {
 	font-size: 1rem;
 	text-align: center;
 	text-transform: uppercase;
-
 	color: #a5deff;
 }
 
+/* CSS Code for Navbar */
+
+#main-nav {
+	padding-right: 9vw;
+	padding-left: 9vw;
+	margin-bottom: 20px;
+	padding-top: 32px;
+}
+
+#main-logo, #kjsce-logo, #trust-logo {
+	object-fit: contain;
+}
+
+#main-logo {
+	width: 220px;
+}
+
+#kjsce-logo {
+	width: 160px;
+}
+
+#trust-logo {
+	width: 70px;
+}
+
+#logo-2 {
+	margin-left: 30px;
+}
+
+/* Navbar CSS ends here */
 
 @media screen and (max-width:1250px) {
 	.container{
 		flex-direction: column-reverse;
 	}
 }
+
+@media screen and (max-width:580px) {
+	/* #main-nav {
+		padding-top: 32px;
+	} */
+	#main-logo {
+		width: 200px;
+	}
+	#kjsce-logo {
+		width: 140px;
+	}
+	#trust-logo {
+		width: 60px;
+	}
+	#logo-2 {
+		margin-left: 17px;
+	}
+}
+
+@media screen and (max-width:460px) {
+	#main-logo {
+		width: 145px;
+	}
+	#kjsce-logo {
+		width: 90px;
+	}
+	#trust-logo {
+		width: 50px;
+	}
+	#logo-2 {
+		margin-left: 14px;
+	}
+}
+

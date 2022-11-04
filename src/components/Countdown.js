@@ -10,7 +10,7 @@ const Countdown = () => {
 	useEffect(() => {
 		setInterval(() => {
 			var now = new Date();
-			var eventDate = new Date(2022, 10, 5, 1, 0, 0);
+			var eventDate = new Date(2022, 10, 7, 1, 0, 0);
 
 			let diff = eventDate - now;
 			setDays(Math.floor(diff / (60 * 60 * 24 * 1000)));

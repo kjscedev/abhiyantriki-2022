@@ -3,16 +3,14 @@ function Navbar() {
 	return (
 		<nav
 			style={{
-				paddingLeft: "4px",
 				display: "flex",
-				padding: "32px 8%",
 				justifyContent: "space-between",
             pointerEvents: "all"
 			}}
-		>
+		id="main-nav">
 			<div>
             <a href="/" style={{pointerEvents: "all"}}>
-               <img src="/abhiyantriki.png" alt="Abhiyantriki Logo" />
+               <img src="/abhiyantriki-2022.png" alt="Abhiyantriki Logo" id="main-logo"/>
             </a>
 			</div>
 			<div style={{ display: "flex", flexDirection: "row" }}>
@@ -21,15 +19,14 @@ function Navbar() {
                transform: "scale(1.1)"
                }}>
                <a href="https://kjsce.somaiya.edu/en" style={{pointerEvents: "all"}}>
-                  <img src="/somaiya-white-1.png" alt="KJSCE Mumbai" />
+                  <img src="/somaiya-white.png" alt="KJSCE Mumbai" id="kjsce-logo"/>
                </a>
             </div>
 				<div style={{ 
-               marginLeft: "20px",
-               transform: "scaleY(0.9)"
-               }}>
+               transform: "scaleY(0.95)"
+               }} id="logo-2">
                <a href="https://www.somaiya.edu/en" style={{pointerEvents: "all"}}>
-                  <img src="/somaiya-trust-1.png" alt="Somaiya Trust" />
+                  <img src="/somaiya-trust.png" alt="Somaiya Trust" id="trust-logo"/>
                </a>
             </div>
 			</div>
