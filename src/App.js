@@ -6,14 +6,13 @@ import Navbar from './components/Navbar';
 function App() {
 
 	const styleObject = {
-
 		position: "absolute",
 		top: "50%",
 		left: "50%",
 		transform: "translate(-50%, -50%)",
 		minWidth: "100%",
 		minHeight: "100%",
-		overflowY: "hidden",
+		// overflowY: "hidden",
 		pointerEvent: "all"
 	}
 
