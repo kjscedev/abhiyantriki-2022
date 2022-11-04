@@ -12,7 +12,7 @@ function Home() {
 				<Countdown />
 			</div>
 			<div className="container__gamePreview">
-        	
+        	Hello
 			<a href="/game" style={{
 				textDecoration: "none"
 			}}> <div className="gamePreview_button">Let's Play!</div></a>
