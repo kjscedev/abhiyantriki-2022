@@ -6,13 +6,12 @@ function Home() {
 		<div className="container">
 			<div className="container__text">
 				<div className="heading-text-primary">
-					<div>Coming </div>soon!
+					<span>Coming </span><span>soon!</span>
 				</div>
 				<div className="heading-text-secondary">Abhiyantriki 2022</div>
 				<Countdown />
 			</div>
 			<div className="container__gamePreview">
-        	Hello
 			<a href="/game" style={{
 				textDecoration: "none"
 			}}> <div className="gamePreview_button">Let's Play!</div></a>
