@@ -138,8 +138,8 @@ code {
 /* CSS Code for Navbar */
 
 #main-nav {
-	padding-right: 9vw;
-	padding-left: 9vw;
+	padding-right: 7vw;
+	padding-left: 7vw;
 	margin-bottom: 20px;
 	padding-top: 32px;
 }
@@ -191,6 +191,11 @@ code {
 }
 
 @media screen and (max-width:460px) {
+	#main-nav {
+		padding-right: 4vw;
+		padding-left: 4vw;
+		padding-top: 40px;
+	}
 	#main-logo {
 		width: 145px;
 	}
