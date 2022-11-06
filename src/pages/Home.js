@@ -1,6 +1,7 @@
 import Countdown from "../components/Countdown";
 
 function Home() {
+	
 	return (
 		<div className="container">
 			<div className="container__text">
@@ -11,8 +12,8 @@ function Home() {
 				<Countdown />
 			</div>
 			<div className="container__gamePreview">
-			<img src="/gamePreview0.png" alt="" srcset="" style={{
-				// maxWidth: "470px",
+			<img src="/gamePreview0.png" alt="Game Preview" style={{
+				maxWidth: "470px",
 				width: "100%",
 				height: "100%"
 			}}/>

@@ -211,6 +211,7 @@ code {
 		flex-direction: column-reverse;
 		padding: 5vh 7.5vw;
 		width: 90vw;
+		max-height: 84vh;
 	}
 	.container__gamePreview {
 		min-height: 38vh;

@@ -41,7 +41,8 @@
 		<div id="particles-js"></div>
 		<div id="root"></div>
 		<script>
-			particlesJS.load("particles-js", "/particles.json");
+			if (window.location.href==="http://localhost:3000/") particlesJS.load("particles-js", "/particles.json");
+			else particlesJS.load("particles-js", "/less-particles.json")
 		</script>
 		<!--
       This HTML file is a template.
