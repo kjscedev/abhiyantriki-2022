@@ -11,6 +11,11 @@ function Home() {
 				<Countdown />
 			</div>
 			<div className="container__gamePreview">
+			<img src="/gamePreview0.png" alt="" srcset="" style={{
+				// maxWidth: "470px",
+				width: "100%",
+				height: "100%"
+			}}/>
 			<a href="/game" style={{
 				textDecoration: "none"
 			}}> <div className="gamePreview_button">Let's Play!</div></a>

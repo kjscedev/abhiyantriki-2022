@@ -20,7 +20,7 @@
   left: 50%;
   top: 50%;
   width: 100%;
-  /* transform: translate(-50%, -100%); */
+  transform: translate(-50%, -100%);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -29,7 +29,7 @@
 }
 #gameoverInstructions.show {
   opacity: 1;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
   transition: all 500ms ease-in-out;
 }
 
@@ -90,16 +90,15 @@ body {
   overflow: hidden;
 }
 
-#particles-js {
+/* #particles-js {
   display: none;
-}
+} */
 
 #game-release {
   height: 638px;
   width: 99.5vw;
   overflow: hidden;
   margin-left: -5px;
-  /* position: absolute; */
 }
 
 @media screen and (max-width: 550px) {
@@ -108,9 +107,8 @@ body {
     overflow: hidden;
   }
   #game-release {
-    margin-top: 15px;
-    /* margin-left: -20px; */
-    height: 85vh;
-    /* width: 90vw; */
+    margin-top: 5px;
+    margin-left: 2px;
+    height: 82vh;
   }
 }

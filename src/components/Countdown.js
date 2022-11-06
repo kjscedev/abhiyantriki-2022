@@ -10,11 +10,12 @@ const Countdown = () => {
 	useEffect(() => {
 		setInterval(() => {
 			var now = new Date();
-			var eventDate = new Date(2022, 10, 7, 1, 0, 0);
+			var eventDate = new Date(2022, 10, 17, 1, 0, 0);
 
 			let diff = eventDate - now;
 			setDays(Math.floor(diff / (60 * 60 * 24 * 1000)));
-			setHours(Math.floor(diff / (60 * 60 * 1000)));
+			// setHours(Math.floor(diff / (60 * 60 * 1000)));
+      setHours(Math.floor(Math.floor(diff / (60 * 60 * 1000)) % (Math.floor(diff / (60 * 60 * 24 * 1000)) * 24)));
 			setMinutes(Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000)));
 			setSeconds(Math.floor((diff % (60 * 1000)) / 1000));
 		}, 1000);
