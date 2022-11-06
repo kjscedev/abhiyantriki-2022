@@ -1,11 +1,12 @@
 body {
 	margin: 0;
+	padding: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow-x: hidden;
+	overflow: hidden;
 	color: whitesmoke;
 	user-select: none;
 	background-color: #001143;
@@ -17,6 +18,23 @@ code {
 }
 * {
 	box-sizing: border-box;
+}
+
+.generate-merged-header .site-header {
+	z-index: 1;
+}
+
+#particles-js {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	z-index: 0;
+}
+
+.page-header-content {
+	position: relative;
 }
 
 .particles-js-canvas-el {
@@ -99,7 +117,7 @@ code {
 
 .countdown {
 	padding: 5vh 2vw;
-	transform: translateX(-9%);
+	transform: translateX(-6%);
 	display: flex;
 	justify-content: space-around;
 	gap: 1rem;
@@ -142,10 +160,11 @@ code {
 /* CSS Code for Navbar */
 
 #main-nav {
-	padding-right: 7vw;
+	padding-right: 7.05vw;
 	padding-left: 7vw;
 	margin-bottom: 27px;
-	padding-top: 32px;
+	padding-top: 20px;
+	margin-top: 10px;
 	overflow: hidden;
 }
 
@@ -235,9 +254,10 @@ code {
 
 @media screen and (max-width: 460px) {
 	#main-nav {
-		padding-right: 3.5vw;
+		padding-right: 3vw;
 		padding-left: 3.5vw;
-		padding-top: 36px;
+		margin-top: 25px !important;
+		padding-top: 4px !important;
 		overflow-x: hidden;
 	}
 	#main-logo {
