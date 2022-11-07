@@ -108,11 +108,6 @@ code {
 	font-size: 6rem;
 	line-height: 6rem;
 	margin-bottom: 10px;
-	/* background: -webkit-linear-gradient(rgb(252, 31, 31), rgb(163, 11, 11)); */
-	background: -webkit-linear-gradient(rgb(244, 41, 153), rgb(203, 174, 7));
-	background-clip: initial;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .heading-text-secondary {
