@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 function Navbar() {
 	return (
 		<nav
@@ -9,9 +9,9 @@ function Navbar() {
 			}}
 		id="main-nav">
 			<div>
-            <a href="/" style={{pointerEvents: "all"}}>
+            <Link to="/" style={{pointerEvents: "all"}}>
                <img src="/abhiyantriki-2022.png" alt="Abhiyantriki Logo" id="main-logo"/>
-            </a>
+            </Link>
 			</div>
 			<div style={{ display: "flex", flexDirection: "row" }}>
 				<div style={{ 

@@ -1,7 +1,7 @@
 import "./App.css";
 import { RouterProvider } from "react-router-dom";
 import routes from './routes/routes';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
 
 	return (
 		<div className="App" style={styleObject}>
-			<Navbar />
+			{/* <Navbar /> */}
 			<RouterProvider router={routes} />
 		</div>
 	);

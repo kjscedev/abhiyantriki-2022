@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Countdown from "../components/Countdown";
 
 function Home() {
@@ -17,9 +18,9 @@ function Home() {
 				width: "100%",
 				height: "100%"
 			}}/>
-			<a href="/game" style={{
+			<Link to="/game" style={{
 				textDecoration: "none"
-			}}> <div className="gamePreview_button">Let's Play!</div></a>
+			}}> <div className="gamePreview_button">Let's Play!</div></Link>
 			</div>
       </div>
 	);

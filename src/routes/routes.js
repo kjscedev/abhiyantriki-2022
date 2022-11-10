@@ -1,15 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import Game from "../pages/Game";
+import Navbar from '../components/Navbar';
 
 const router=createBrowserRouter([
     {
         path:"/",
-        element:<Home/>
+        element:<><Navbar /><Home /></>
     },
     {
         path:'/game',
-        element:<Game/>
+        element:<><Navbar /><Game /></>
     }
 ])
 
