@@ -41,7 +41,7 @@
 		<div id="particles-js"></div>
 		<div id="root"></div>
 		<script>
-			if (window.location.href.includes("game")) particlesJS.load("particles-js", "/particles.json");
+			if (!window.location.href.includes("/game")) particlesJS.load("particles-js", "/particles.json");
 			else particlesJS.load("particles-js", "/less-particles.json");
 		</script>
 
