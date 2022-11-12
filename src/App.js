@@ -25,9 +25,3 @@ function App() {
 }
 
 export default App;
-
-//  Project developed by 
-// --  Vatsal Sanchala >> bevatsal1122
-// --  Arya Nair >> Arya-A-Nair
-// --  Vinay Kanse >> VinayKanse
-// --  Pranay Singh >> hailhydra1
