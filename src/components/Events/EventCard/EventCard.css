@@ -1,6 +1,7 @@
 .event-card {
   margin: 5vh;
   font-size: 1rem;
+  z-index: 100000;
 }
 
 .event-info {

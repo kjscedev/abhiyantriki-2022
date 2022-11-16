@@ -173,13 +173,13 @@ export const exposAndSpeakersDataJson = [
         heading: "Sandeep Jain",
         text: "The CEO of the most revered and widely acclaimed platform “GeeksforGeeks” grace our event as the Speaker for ABhiyantriki 2022. 'GeeksforGeeks' is a vital part of every programmers life. The vision for this platform has been to provide equal opportunites for every geek.",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Speaker/Mr AS Kiran Kumar.png`,
+        `${process.env.PUBLIC_URL}/assets/images/events/sandeepJain.png`,
       },
       {
         heading: "Kalpit Veerwal",
         text: "In 2017, He became the first and only person to ever score full marks in the prestugious Joint Entrance Examination. IN 2018, He founded Acadboost He holds a B.Tech degree in Computer Science & Engineering from IIT Bombay",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Speaker/Dr. Swamy.png`,
+        `${process.env.PUBLIC_URL}/assets/images/events/kalpitVeerwal.png`,
       },
     ],
   },
@@ -200,31 +200,31 @@ export const exposAndSpeakersDataJson = [
         heading: "Dhananjay Bendre",
         text: "The Business Head of Orcale in India Mr. Bendre also has 11 years of experience as an incubator in one of the firsts startup incubation firms in India Orcale is the Institutional Giant in Software and Technology of the world. ",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Panel/Sathvik_Vishvanath.png`,
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Dhananjay_Bendre.png`,
       },
       {
         heading: "Rushabh Mehta",
         text: "CEO and Co-founder of Frappe. He is a dynamic individual and is passionate about Open Source and ERPnext forums. His years of experience snd knowledge in the field of software and business will prove fundamental and insightful for all the future engineers of KJSCE. We sre eagerly looking forward to this discussion.",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Panel/Sidharth_Sogani.png`,
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Rushabh_Mehta.png`,
       },
       {
         heading: "Gautaam Borah",
         text: "Currently leading an e-commerce startup. He is also a globally accomplished author. His first look Monetising Innovation caters to and guide us through the questions of today’s world. He has also been the Vice President and Head of Vodafone.",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Panel/Ritesh_Bhatia.png`,
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Gautaam_Borah.png`,
       },
       {
         heading: "Deepika Singh",
         text: "Ms. Deepika Singh is a passionate and dedicated Ex Fellow of Maharashtra Cyber Police Department. She hones skilled expertise in fields of the most significant areas, web intelligence, digital and deep web.",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Panel/Prassana_lohar.png`,
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Deepika_Singh.png`,
       },
       {
         heading: "Venkataraman Prabhu",
         text: "Mr Venkataraman Prabhu, the IT and Digital Strategy leader at Jio plaforms. Mr. Prabhu boasts over 20 years of experience spanning IT Strategy, product management and lateral thinking. He also specializes in Coporate Strategy, business excellence and IT consultation.",
         image:
-        `${process.env.PUBLIC_URL}/assets/images/Panel/Prassana_lohar.png`,
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Venkataraman_Prabhu.png`,
       },
     ],
   },

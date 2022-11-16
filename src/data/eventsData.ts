@@ -17,7 +17,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/codeclan.png",
+          process.env.PUBLIC_URL + "/assets/images/events/codespree.png",
         name: "Codespree",
         text: "Prepare to be dazzled by an adrenaline inducing Abhiyantriki pre-event CodeSpree. A national level competitive programming competition to held on CodeChef in all the mainstream languages",
         prize: "worth 12,000/-",
@@ -27,7 +27,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/the rising star.png",
+          process.env.PUBLIC_URL + "/assets/images/events/bidByBit.png",
         name: "Bid-By-Bit",
         text: "Are you focusing on developing your finance dexterity along with coding as your past-time delectation, then you should consider registering for this one-of-a-kind event. CodeClan is a game that combines technical as well as financial-management skills with enticing rewards on the line for participants.",
         memberLimit: "3 members per team",
@@ -37,7 +37,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/technocrats.png",
+          process.env.PUBLIC_URL + "/assets/images/events/electrohunt.png",
         name: "Electrohunt",
         text: "",
         memberLimit: "3 members per team",
@@ -47,7 +47,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/circuitsaga.png",
+          process.env.PUBLIC_URL + "/assets/images/events/peerPong.png",
         name: "Peer Pong",
         text: "",
         // memberLimit: "1-3 members per team",
@@ -57,7 +57,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/electronic wizard.png",
+          process.env.PUBLIC_URL + "/assets/images/events/operationGraduation.png",
         name: "Operation Graduation",
         text: "",
         // memberLimit: "1 or 2 members",
@@ -67,7 +67,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/incognito probe.png",
+          process.env.PUBLIC_URL + "/assets/images/events/BroCode.png",
         name: "The Bro Code",
         text: "",
         memberLimit: "2-4 members per team",
@@ -77,7 +77,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/tech-events/the rising star.png",
+          process.env.PUBLIC_URL + "/assets/images/events/Rush.png",
         name: "Rush",
         text: "",
         memberLimit: "2 members per team",
@@ -95,7 +95,7 @@ export const eventData = [
     events: [
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/ideate/nif.png",
+          process.env.PUBLIC_URL + "/assets/logos/unl-logo.png",
         name: "UNL",
         text: "",
         memberLimit: "3 members per team",
@@ -106,7 +106,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/ideate/mpcb.png",
+          process.env.PUBLIC_URL + "/assets/logos/ndrc-logo.png",
         name: "NRDC",
         text: "Problem Statement Cost efficient & Eco-friendly technologies or solutions to encounter threat to marine and coastal ecosystem by Oil Spills.",
         memberLimit: "3 members per team",

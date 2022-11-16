@@ -1011,4 +1011,61 @@ export const sponsorsImgSources = {
       link: "https://t.me/finnovationzindia",
     },
   ],
+  2022:[
+    {
+      name: "Vivo",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/vivo.jpg",
+      link: "https://www.thehindu.com/",
+      text: "Powered By",
+    },
+    {
+      name: "Domino's Pizza",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/Pizza Partner.png",
+      link: "https://pizzaonline.dominos.co.in/",
+      text: "Pizza Partner",
+    },
+    {
+      name: "Student Advisory Services",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/Edu-Partner.jpg",
+      link: "",
+      text: "Education Partner",
+    },
+    {
+      name: "Teaspoon",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/teaspoon.png",
+      link: "",
+      text: "Bistro Partner",
+    },
+    {
+      name: "Navbharat",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/IMG_3157.JPG",
+      link: "https://navbharattimes.indiatimes.com/",
+      text: "Hindi Print Media Partner",
+    },
+    {
+      name: "Happy Juice",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/Juice Partner.jpeg",
+      link: "https://www.happyjuice-co.com/",
+      text: "Juice Partner",
+    },
+    {
+      name: "AMTEC",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/AMPTEC.jpg",
+      link: "https://www.amtecedu.org/press-files/Write%20up%20about%20AMTEC-17%20April%2021.pdf",
+      text: "Plastic Partner",
+    },
+    {
+      name: "The Free Press Journal",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/Print Media Partner.jpg",
+      link: "https://www.freepressjournal.in/",
+      text: "Online Media Partner",
+    },
+    {
+      name: "The Hindu",
+      source: process.env.PUBLIC_URL + "/assets/images/Sponsors/Print Media Partner.png",
+      link: "https://www.thehindu.com/",
+      text: "Print Media Partner",
+    },
+    
+  ]
 };

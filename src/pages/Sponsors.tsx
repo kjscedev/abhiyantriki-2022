@@ -7,7 +7,7 @@ import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
 interface SponsorsProps {}
 
 const Sponsors = ({}: SponsorsProps) => {
-  const [year, setYear] = useState<number>(2021);
+  const [year, setYear] = useState<number>(2022);
   const yearRef = useRef<HTMLSpanElement | null>(null);
 
   const [anim, setAnim] = useState<boolean | null>(false);
