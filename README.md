@@ -1,4 +1,4 @@
-# Abhiyantriki 2021
+# Abhiyantriki 2022
 
 ## TODO
 
@@ -11,8 +11,8 @@
 2. clone the repo
 
 ```bash
-git clone https://github.com/kjscedev/Abhiyantriki_2021.git
-cd Abhiyantriki_2021
+git clone https://github.com/kjscedev/abhiyantriki-2022/
+cd Abhiyantriki_2022
 ```
 
 2. In your terminal:

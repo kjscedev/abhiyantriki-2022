@@ -52,7 +52,8 @@
 /* navbar  */
 .navbar {
   text-align: center;
-  background-color: #001121;
+  /* background-image: linear-gradient(#090030, #001121); */
+  backdrop-filter: blur(2px) brightness(60%);
 }
 
 ul {

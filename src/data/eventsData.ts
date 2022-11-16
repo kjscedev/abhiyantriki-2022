@@ -177,58 +177,118 @@ export const eventData = [
       },
     ],
   },
-  // {
-  //   linkHash: "informals",
-  //   eventNamePath: process.env.PUBLIC_URL + "/assets/gifs/informals.gif",
-  //   eventName: "Informals",
-  //   events: [
-  //     {
-  //       eventImgPath:
-  //         process.env.PUBLIC_URL + "/assets/images/fun/bgmi.png",
-  //       name: "BGMI",
-  //       text: "India’s favourite mobile game is back with more intense gameplay and better features. Assemble your squad of 4 players, dive into the zone and survive the game with weapons, medics and the best teamwork you can put into! Sign up for BGMI and get a chance to cook chicken dinner and win exciting prizes.",
-  //       memberLimit: "4 members per team",
-  //       prize: "worth 14,000/-",
-  //       fees: "180 Rs for a team of 4",
-  //       contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
-  //     },
-  //     {
-  //       eventImgPath:
-  //         process.env.PUBLIC_URL + "/assets/images/fun/valo.png",
-  //       name: "Valorant",
-  //       text: "Nothing’s more enjoyable than applying your wits in putting a great combination of firepower and special abilities against your opponents who will counter them with their own arsenal. Presenting to you Valorant, an FPS based PC game where you and your friends team up and ravage the map with the Radianite power.",
-  //       memberLimit: "4 members per team",
-  //       prize: "worth 14,000/-",
-  //       fees: "180 Rs for a team of 4",
-  //       contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
-  //     },
-  //     {
-  //       eventImgPath:
-  //         process.env.PUBLIC_URL + "/assets/images/fun/codm.png",
-  //       name: "COD:Mobile",
-  //       text: "Bringing you the ultimate 5v5 team deathmatch battle in the form of a mobile phone, Call of Duty: Mobile will definitely bring an atmosphere of adrenaline rush. So get hold of your rifle, SMGs, shotguns, a handful of grenades and the Operator Skills and step on the battlefield.",
-  //       memberLimit: "4 members per team",
-  //       prize: "worth 14,000/-",
-  //       fees: "180 Rs for a team of 4",
-  //       contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
-  //     },
-  //   ],
-  // },
-  // {
-  //   linkHash: "preevents",
-  //   eventNamePath: process.env.PUBLIC_URL + "/assets/gifs/pre-event.gif",
-  //   eventName: "Pre-events",
-  //   events: [
-  //     {
-  //       eventImgPath:
-  //         process.env.PUBLIC_URL + "/assets/images/tech-events/codespree.png",
-  //       name: "Codespree",
-  //       text: "CodeSpree is a precursor to Crackathon, which will take place during Abhiyantriki. It is a lengthy coding competition that puts your overall programming skills to the test, hosted on CodeChef. The CodeSpree winners will receive cash prizes as well as a direct entry into the third round of Crackathon!",
-  //       memberLimit: "3 members per team",
-  //       prize: "worth 8000/-",
-  //       fees: "FREE",
-  //       contactInfo: ["Rahil: 9920828960", "Soumen: 8356853262"],
-  //     },
-  //   ],
-  // },
+  {
+    linkHash: "informals",
+    eventNamePath: process.env.PUBLIC_URL + "/assets/gifs/informals.gif",
+    eventName: "Informals",
+    events: [
+      // {
+      //   eventImgPath:
+      //     process.env.PUBLIC_URL + "/assets/images/fun/bgmi.png",
+      //   name: "BGMI",
+      //   text: "India’s favourite mobile game is back with more intense gameplay and better features. Assemble your squad of 4 players, dive into the zone and survive the game with weapons, medics and the best teamwork you can put into! Sign up for BGMI and get a chance to cook chicken dinner and win exciting prizes.",
+      //   memberLimit: "4 members per team",
+      //   prize: "worth 14,000/-",
+      //   fees: "180 Rs for a team of 4",
+      //   contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
+      // },
+      // {
+      //   eventImgPath:
+      //     process.env.PUBLIC_URL + "/assets/images/fun/valo.png",
+      //   name: "Valorant",
+      //   text: "Nothing’s more enjoyable than applying your wits in putting a great combination of firepower and special abilities against your opponents who will counter them with their own arsenal. Presenting to you Valorant, an FPS based PC game where you and your friends team up and ravage the map with the Radianite power.",
+      //   memberLimit: "4 members per team",
+      //   prize: "worth 14,000/-",
+      //   fees: "180 Rs for a team of 4",
+      //   contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
+      // },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/codm.png",
+        name: "COD:Mobile",
+        text: "Call of Duty: Mobile is one of the most popular free-to-play shooter game developed by TiMi Studio Group and published by Activision for Android and iOS.  \nDuration: 10mins \nSearch and destroy Team of 5 (5v5)      ",
+        memberLimit: "5 members per team",
+        prize: "worth 14,000/-",
+        fees: "150 Rs for a team of 5",
+        contactInfo: ["Rahi: 563503392"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/valo.png",
+        name: "Valorant",
+        text: "Valorant is a free-to-play first-person shooter game developed and published by Riot Games, that has taken the market by storm with its blend of ability and aim based gameplay",
+        memberLimit: "5 members per team",
+        prize: "worth 14,000/-",
+        fees: "250 Rs for a team of 5",
+        contactInfo: ["Rahi: 563503392"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/fifa.png",
+        name: "FIFA 23",
+        text: "The legendary FIFA series has been produced by EA SPORTS for over 20 years, and is now the largest sports video game franchise on the planet. It is available on most platforms and boasts highly engaging and competitive gameplay",
+        memberLimit: "1 member per team",
+        prize: "worth 14,000/-",
+        fees: "120 Rs for a team",
+        contactInfo: ["Rahi: 563503392"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/cod.png",
+        name: "COD M",
+        text: "Call of Duty®: Black Ops is an entertainment experience that will take you to conflicts across the globe, as elite Black Ops forces fight in the deniable operations and secret wars that occurred under the veil of the Cold War.",
+        memberLimit: "2 members per team",
+        prize: "worth 14,000/-",
+        fees: "",
+        contactInfo: ["Rahi: 563503392"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/rocket_league.png",
+        name: "Rocket League",
+        text: "Rocket League is the high-powered hybrid of arcade-style soccer and vehicular mayhem! Customize your car, hit the field, and compete in one of the most critically acclaimed sports games of all time!",
+        memberLimit: "2 members per team",
+        prize: "worth 14,000/-",
+        fees: "100 Rs for a team of 2",
+        contactInfo: ["Rahi: 563503392"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/lazer.png",
+        name: "Lazer Tag",
+        text: "Laser tag is a recreational shooting sport where participants use infrared-emitting light guns to tag designated targets. Infrared-sensitive signaling devices are commonly worn by each player to register hits and are sometimes integrated within the arena in which the game is played.",
+        memberLimit: "4 members per team",
+        prize: "worth 14,000/-",
+        fees: "250 Rs for a team of 4",
+        contactInfo: ["Rahi: 563503392"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/drones.png",
+        name: "Game of Drones",
+        text: "Drone racing is a sport where participants control 'drones' (typically small radio-controlled aircraft or quadcopters), that may be equipped with cameras while wearing head-mounted displays showing the live stream camera feed from the drones.",
+        memberLimit: "",
+        prize: "worth 14,000/-",
+        fees: "100 Rs",
+        contactInfo: ["Rahi: 563503392"],
+      },
+    ],
+  },
+  {
+    linkHash: "preevents",
+    eventNamePath: process.env.PUBLIC_URL + "/assets/gifs/pre-event.gif",
+    eventName: "Pre-events",
+    events: [
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/events/codespree.png",
+        name: "Codespree",
+        text: "Prepare to be dazzled by an adrenaline inducing Abhiyantriki pre-event CodeSpree. A national level competitive programming competition to held on CodeChef in all the mainstream languages.",
+        prize: "worth 12,000/-",
+        memberLimit:"3 members per team",
+        fees: "Free",
+        contactInfo: ["Tanvi: +91 82918 85532","Jay: +91 97305 35624"," Soumen: +91 83568 53262"],
+      },
+    ],
+  },
 ];

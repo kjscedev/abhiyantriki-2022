@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="home-resp">
       <img
-        alt="Abhiyantriki 2021"
+        alt="Abhiyantriki 2022"
         src={
           window.innerWidth > 768
             ? process.env.PUBLIC_URL + "/assets/gifs/home_page.gif"
