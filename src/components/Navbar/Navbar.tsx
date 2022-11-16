@@ -39,7 +39,7 @@ const Navbar = ({}: NavbarProps) => {
             </li>
             <li className="nav-item px-2 highlight">
               <a
-                href={process.env.PUBLIC_URL + "/events"}
+                href={"https://kjsce-abhiyantriki.org/" + "/events"}
                 className="box foo text-decoration-none"
               >
                 Events

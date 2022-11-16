@@ -101,7 +101,7 @@ function App() {
 				}}
 			/>
 			<div className="container__main">
-				<Router basename={process.env.PUBLIC_URL}>
+				<Router >
 					<Navbar />
 					<div className="App text-white">
 						<Switch>
