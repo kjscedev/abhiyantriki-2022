@@ -103,7 +103,7 @@ function App() {
 			/>
 			<div className="container__main">
 				<Router >
-					{/* <div className="App text-white"> */}
+					<div className="App text-white">
 						<Switch>
 							<Navbar />
 							{/* for home page */}
@@ -117,7 +117,7 @@ function App() {
 							</Route>
 
 							{/* for get involved page */}
-							<Route path="/get-involved"exact >
+							<Route path="/get-involved" exact >
 								<GetInvolved />
 							</Route>
 
@@ -136,7 +136,7 @@ function App() {
 								<Sponsors />
 							</Route>
 						</Switch>
-					{/* </div> */}
+					</div>
 				</Router>
 				{window.location.pathname !== "/expos-and-speakers" &&
 					window.location.pathname !== "/events" && <Footer />}
