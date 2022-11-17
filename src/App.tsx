@@ -10,6 +10,7 @@ import Sponsors from "./pages/Sponsors";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import Particles from "react-tsparticles";
+
 function App() {
 	return (
 		<>
@@ -102,40 +103,40 @@ function App() {
 			/>
 			<div className="container__main">
 				<Router >
-					<Navbar />
-					<div className="App text-white">
+					{/* <div className="App text-white"> */}
 						<Switch>
+							<Navbar />
 							{/* for home page */}
 							<Route path="/" exact>
 								<Home />
 							</Route>
 
 							{/* for events page */}
-							<Route path="/events">
+							<Route path="/events" exact>
 								<Events />
 							</Route>
 
 							{/* for get involved page */}
-							<Route path="/get-involved">
+							<Route path="/get-involved"exact >
 								<GetInvolved />
 							</Route>
 
 							{/* for events page */}
-							<Route path="/expos-and-speakers">
+							<Route path="/expos-and-speakers" exact>
 								<ExposAndSpeakers />
 							</Route>
 
 							{/* for parvaah page */}
-							<Route path="/parvaah">
+							<Route path="/parvaah" exact>
 								<Parvaah />
 							</Route>
 
 							{/* for Sponsers page */}
-							<Route path="/sponsors">
+							<Route path="/sponsors" exact>
 								<Sponsors />
 							</Route>
 						</Switch>
-					</div>
+					{/* </div> */}
 				</Router>
 				{window.location.pathname !== "/expos-and-speakers" &&
 					window.location.pathname !== "/events" && <Footer />}

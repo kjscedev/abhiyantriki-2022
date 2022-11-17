@@ -39,7 +39,7 @@ const Navbar = ({}: NavbarProps) => {
             </li>
             <li className="nav-item px-2 highlight">
               <a
-                href={"https://kjsce-abhiyantriki.org/" + "/events"}
+                href={"https://kjsce-abhiyantriki.org" + "/events"}
                 className="box foo text-decoration-none"
               >
                 Events
