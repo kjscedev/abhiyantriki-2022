@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://kjsce-abhiyantriki.org/static/css/main.772f8812.chunk.css",
-    "main.js": "https://kjsce-abhiyantriki.org/static/js/main.203fdd77.chunk.js",
-    "main.js.map": "https://kjsce-abhiyantriki.org/static/js/main.203fdd77.chunk.js.map",
+    "main.js": "https://kjsce-abhiyantriki.org/static/js/main.2d060d82.chunk.js",
+    "main.js.map": "https://kjsce-abhiyantriki.org/static/js/main.2d060d82.chunk.js.map",
     "runtime-main.js": "https://kjsce-abhiyantriki.org/static/js/runtime-main.7020431a.js",
     "runtime-main.js.map": "https://kjsce-abhiyantriki.org/static/js/runtime-main.7020431a.js.map",
     "static/css/2.4d5105f5.chunk.css": "https://kjsce-abhiyantriki.org/static/css/2.4d5105f5.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.4d5105f5.chunk.css",
     "static/js/2.28b4ab12.chunk.js",
     "static/css/main.772f8812.chunk.css",
-    "static/js/main.203fdd77.chunk.js"
+    "static/js/main.2d060d82.chunk.js"
   ]
 }
